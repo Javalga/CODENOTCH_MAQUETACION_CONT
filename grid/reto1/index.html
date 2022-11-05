@@ -2,23 +2,38 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grid</title>
-    <style>
-        .grid_container {
-            display: grid;
-            grid-template-columns: 40% 20% 40%;
-            grid-template-rows: 50% 50%;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grid</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      height: 100vh;
+    }
+
+    .grid_container {
+      display: grid;
+      grid-template-columns: 40vw 20vw 40vw;
+      grid-template-rows: 50vh 50vh;
+    }
+  </style>
 </head>
 
 <body>
-    <main class="grid_container">
-
-    </main>
+  <main class="grid_container">
+    <div style="background-color: #ADFF2E;"></div>
+    <div style="background-color: #F8A502;"></div>
+    <div style="background-color: #F77202;"></div>
+    <div style="background-color: #F62E00;"></div>
+    <div style="background-color: #2B05FF;"></div>
+    <div style="background-color: #FCFF00;"></div>
+  </main>
 </body>
 
 </html>
